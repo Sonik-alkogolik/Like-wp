@@ -1,0 +1,580 @@
+[06-Dec-2024 15:10:23 UTC] group_link is set: https://vk.com/public162267205
+[06-Dec-2024 15:10:23 UTC] Current user ID: 7
+[06-Dec-2024 15:10:23 UTC] Sanitized group link: https://vk.com/public162267205
+[06-Dec-2024 15:10:23 UTC] User data from meta: {"first_name":"Максим","last_name":"Максимов","email":"","vk_user_id":887980490,"access_token":"vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ"}
+[06-Dec-2024 15:10:23 UTC] VK User ID: 887980490
+[06-Dec-2024 15:10:23 UTC] Access token: vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ
+[06-Dec-2024 15:10:23 UTC] Extracted group ID: 162267205
+[06-Dec-2024 15:10:23 UTC] VK API query: group_id=162267205&user_id=887980490&access_token=vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ&v=5.131
+[06-Dec-2024 15:10:23 UTC] VK API response: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [server] => kittenx
+                    [date] => Fri, 06 Dec 2024 15:10:24 GMT
+                    [content-type] => application/json; charset=utf-8
+                    [content-length] => 34
+                    [x-powered-by] => KPHP/7.4.119951
+                    [set-cookie] => remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+                    [cache-control] => no-store
+                    [x-frame-options] => DENY
+                    [content-encoding] => gzip
+                    [x-trace-id] => _19r_mJzSZ77QL1Lkz0mfraLcd_4sA
+                    [server-timing] => tid;desc="_19r_mJzSZ77QL1Lkz0mfraLcd_4sA"
+                )
+
+        )
+
+    [body] => {"response":1}
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => remixir
+                    [value] => DELETED
+                    [expires] => 1
+                    [path] => /
+                    [domain] => vk.com
+                    [port] => 
+                    [host_only] => 
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {"response":1}
+                    [raw] => HTTP/1.1 200 OK
+Server: kittenx
+Date: Fri, 06 Dec 2024 15:10:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: close
+X-Powered-By: KPHP/7.4.119951
+Set-Cookie: remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+Cache-control: no-store
+X-Frame-Options: DENY
+Content-Encoding: gzip
+X-Trace-Id: _19r_mJzSZ77QL1Lkz0mfraLcd_4sA
+Server-Timing: tid;desc="_19r_mJzSZ77QL1Lkz0mfraLcd_4sA"
+
+{"response":1}
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Array
+                                        (
+                                            [0] => kittenx
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Fri, 06 Dec 2024 15:10:24 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json; charset=utf-8
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 34
+                                        )
+
+                                    [x-powered-by] => Array
+                                        (
+                                            [0] => KPHP/7.4.119951
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+                                        )
+
+                                    [cache-control] => Array
+                                        (
+                                            [0] => no-store
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => DENY
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [x-trace-id] => Array
+                                        (
+                                            [0] => _19r_mJzSZ77QL1Lkz0mfraLcd_4sA
+                                        )
+
+                                    [server-timing] => Array
+                                        (
+                                            [0] => tid;desc="_19r_mJzSZ77QL1Lkz0mfraLcd_4sA"
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 200
+                    [protocol_version] => 1.1
+                    [success] => 1
+                    [redirects] => 0
+                    [url] => https://api.vk.com/method/groups.isMember?group_id=162267205&user_id=887980490&access_token=vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ&v=5.131
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [remixir] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => remixir
+                                            [value] => DELETED
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [expires] => 1
+                                                            [path] => /
+                                                            [domain] => vk.com
+                                                            [secure] => 1
+                                                            [httponly] => 1
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1733497823
+                                                    [last-access] => 1733497823
+                                                    [persistent] => 
+                                                    [host-only] => 
+                                                )
+
+                                            [reference_time] => 1733497823
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+
+[06-Dec-2024 15:10:23 UTC] VK API response body: {"response":1}
+[06-Dec-2024 15:10:54 UTC] group_link is set: https://vk.com/public162267205
+[06-Dec-2024 15:10:54 UTC] Current user ID: 7
+[06-Dec-2024 15:10:54 UTC] Sanitized group link: https://vk.com/public162267205
+[06-Dec-2024 15:10:54 UTC] User data from meta: {"first_name":"Максим","last_name":"Максимов","email":"","vk_user_id":887980490,"access_token":"vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ"}
+[06-Dec-2024 15:10:54 UTC] VK User ID: 887980490
+[06-Dec-2024 15:10:54 UTC] Access token: vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ
+[06-Dec-2024 15:10:54 UTC] Extracted group ID: 162267205
+[06-Dec-2024 15:10:54 UTC] VK API query: group_id=162267205&user_id=887980490&access_token=vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ&v=5.131
+[06-Dec-2024 15:10:54 UTC] VK API response: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [server] => kittenx
+                    [date] => Fri, 06 Dec 2024 15:10:55 GMT
+                    [content-type] => application/json; charset=utf-8
+                    [content-length] => 34
+                    [x-powered-by] => KPHP/7.4.119951
+                    [set-cookie] => remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+                    [cache-control] => no-store
+                    [x-frame-options] => DENY
+                    [content-encoding] => gzip
+                    [x-frontend] => front661408
+                    [x-trace-id] => s_f3p565YhIx0bh0oy3QAl8eMTLfbQ
+                    [server-timing] => tid;desc="s_f3p565YhIx0bh0oy3QAl8eMTLfbQ"
+                )
+
+        )
+
+    [body] => {"response":0}
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => remixir
+                    [value] => DELETED
+                    [expires] => 1
+                    [path] => /
+                    [domain] => vk.com
+                    [port] => 
+                    [host_only] => 
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {"response":0}
+                    [raw] => HTTP/1.1 200 OK
+Server: kittenx
+Date: Fri, 06 Dec 2024 15:10:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: close
+X-Powered-By: KPHP/7.4.119951
+Set-Cookie: remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+Cache-control: no-store
+X-Frame-Options: DENY
+Content-Encoding: gzip
+X-Frontend: front661408
+X-Trace-Id: s_f3p565YhIx0bh0oy3QAl8eMTLfbQ
+Server-Timing: tid;desc="s_f3p565YhIx0bh0oy3QAl8eMTLfbQ"
+
+{"response":0}
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Array
+                                        (
+                                            [0] => kittenx
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Fri, 06 Dec 2024 15:10:55 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json; charset=utf-8
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 34
+                                        )
+
+                                    [x-powered-by] => Array
+                                        (
+                                            [0] => KPHP/7.4.119951
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+                                        )
+
+                                    [cache-control] => Array
+                                        (
+                                            [0] => no-store
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => DENY
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [x-frontend] => Array
+                                        (
+                                            [0] => front661408
+                                        )
+
+                                    [x-trace-id] => Array
+                                        (
+                                            [0] => s_f3p565YhIx0bh0oy3QAl8eMTLfbQ
+                                        )
+
+                                    [server-timing] => Array
+                                        (
+                                            [0] => tid;desc="s_f3p565YhIx0bh0oy3QAl8eMTLfbQ"
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 200
+                    [protocol_version] => 1.1
+                    [success] => 1
+                    [redirects] => 0
+                    [url] => https://api.vk.com/method/groups.isMember?group_id=162267205&user_id=887980490&access_token=vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ&v=5.131
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [remixir] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => remixir
+                                            [value] => DELETED
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [expires] => 1
+                                                            [path] => /
+                                                            [domain] => vk.com
+                                                            [secure] => 1
+                                                            [httponly] => 1
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1733497854
+                                                    [last-access] => 1733497854
+                                                    [persistent] => 
+                                                    [host-only] => 
+                                                )
+
+                                            [reference_time] => 1733497854
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+
+[06-Dec-2024 15:10:54 UTC] VK API response body: {"response":0}
+[06-Dec-2024 15:11:13 UTC] group_link is set: https://vk.com/public162267205
+[06-Dec-2024 15:11:13 UTC] Current user ID: 7
+[06-Dec-2024 15:11:13 UTC] Sanitized group link: https://vk.com/public162267205
+[06-Dec-2024 15:11:13 UTC] User data from meta: {"first_name":"Максим","last_name":"Максимов","email":"","vk_user_id":887980490,"access_token":"vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ"}
+[06-Dec-2024 15:11:13 UTC] VK User ID: 887980490
+[06-Dec-2024 15:11:13 UTC] Access token: vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ
+[06-Dec-2024 15:11:13 UTC] Extracted group ID: 162267205
+[06-Dec-2024 15:11:13 UTC] VK API query: group_id=162267205&user_id=887980490&access_token=vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ&v=5.131
+[06-Dec-2024 15:11:14 UTC] VK API response: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [server] => kittenx
+                    [date] => Fri, 06 Dec 2024 15:11:15 GMT
+                    [content-type] => application/json; charset=utf-8
+                    [content-length] => 34
+                    [x-powered-by] => KPHP/7.4.119951
+                    [set-cookie] => remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+                    [cache-control] => no-store
+                    [x-frame-options] => DENY
+                    [content-encoding] => gzip
+                    [x-trace-id] => Ga9WQDFWf5rcB7lQ9SqiDHg4z88Bhw
+                    [server-timing] => tid;desc="Ga9WQDFWf5rcB7lQ9SqiDHg4z88Bhw"
+                )
+
+        )
+
+    [body] => {"response":1}
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => remixir
+                    [value] => DELETED
+                    [expires] => 1
+                    [path] => /
+                    [domain] => vk.com
+                    [port] => 
+                    [host_only] => 
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {"response":1}
+                    [raw] => HTTP/1.1 200 OK
+Server: kittenx
+Date: Fri, 06 Dec 2024 15:11:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 34
+Connection: close
+X-Powered-By: KPHP/7.4.119951
+Set-Cookie: remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+Cache-control: no-store
+X-Frame-Options: DENY
+Content-Encoding: gzip
+X-Trace-Id: Ga9WQDFWf5rcB7lQ9SqiDHg4z88Bhw
+Server-Timing: tid;desc="Ga9WQDFWf5rcB7lQ9SqiDHg4z88Bhw"
+
+{"response":1}
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => Array
+                                        (
+                                            [0] => kittenx
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Fri, 06 Dec 2024 15:11:15 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json; charset=utf-8
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 34
+                                        )
+
+                                    [x-powered-by] => Array
+                                        (
+                                            [0] => KPHP/7.4.119951
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => remixir=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com; secure; HttpOnly
+                                        )
+
+                                    [cache-control] => Array
+                                        (
+                                            [0] => no-store
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => DENY
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [x-trace-id] => Array
+                                        (
+                                            [0] => Ga9WQDFWf5rcB7lQ9SqiDHg4z88Bhw
+                                        )
+
+                                    [server-timing] => Array
+                                        (
+                                            [0] => tid;desc="Ga9WQDFWf5rcB7lQ9SqiDHg4z88Bhw"
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 200
+                    [protocol_version] => 1.1
+                    [success] => 1
+                    [redirects] => 0
+                    [url] => https://api.vk.com/method/groups.isMember?group_id=162267205&user_id=887980490&access_token=vk1.a.sIAyEsq6TyybW2FOJstJ3G1xFl2q7VQoCRQYZNXxiSt2A3aPuY_bOQusfBH3YyrywYI3VQYtO_FBey2zkLyR3VUEOKwx9SIa9ejv02EJ9B7ou7B8P-ugKSUwQxscGuScqZpmvIjBF5T1VILW018zjOBfBLgRNvrTAxVbyoHbjHsrig6_ucSJKPKOCB8b69hJ&v=5.131
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [remixir] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => remixir
+                                            [value] => DELETED
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [expires] => 1
+                                                            [path] => /
+                                                            [domain] => vk.com
+                                                            [secure] => 1
+                                                            [httponly] => 1
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1733497874
+                                                    [last-access] => 1733497874
+                                                    [persistent] => 
+                                                    [host-only] => 
+                                                )
+
+                                            [reference_time] => 1733497874
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+
+[06-Dec-2024 15:11:14 UTC] VK API response body: {"response":1}
